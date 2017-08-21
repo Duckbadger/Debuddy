@@ -14,6 +14,7 @@
 		BEA0CF0D1EA18B1B0060AD6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA0CF0C1EA18B1B0060AD6D /* Assets.xcassets */; };
 		BEA0CF101EA18B1B0060AD6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA0CF0E1EA18B1B0060AD6D /* LaunchScreen.storyboard */; };
 		BEA0CF1B1EA18B1B0060AD6D /* DebuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0CF1A1EA18B1B0060AD6D /* DebuddyTests.swift */; };
+		BEB7C9B71F464A8500819302 /* DebugWindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB7C9B61F464A8500819302 /* DebugWindowManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		BEA0CF161EA18B1B0060AD6D /* DebuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DebuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA0CF1A1EA18B1B0060AD6D /* DebuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuddyTests.swift; sourceTree = "<group>"; };
 		BEA0CF1C1EA18B1B0060AD6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEB7C9B61F464A8500819302 /* DebugWindowManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugWindowManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE26150F1F44DDFF00A789AA /* Debuddy */ = {
+			isa = PBXGroup;
+			children = (
+				BEB7C9B61F464A8500819302 /* DebugWindowManager.swift */,
+			);
+			path = Debuddy;
+			sourceTree = "<group>";
+		};
 		BEA0CEF91EA18B1B0060AD6D = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +89,7 @@
 		BEA0CF041EA18B1B0060AD6D /* Debuddy */ = {
 			isa = PBXGroup;
 			children = (
+				BE26150F1F44DDFF00A789AA /* Debuddy */,
 				BEA0CF051EA18B1B0060AD6D /* AppDelegate.swift */,
 				BEA0CF071EA18B1B0060AD6D /* ViewController.swift */,
 				BEA0CF091EA18B1B0060AD6D /* Main.storyboard */,
@@ -203,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEA0CF081EA18B1B0060AD6D /* ViewController.swift in Sources */,
+				BEB7C9B71F464A8500819302 /* DebugWindowManager.swift in Sources */,
 				BE18DB4C1EA565FF00784917 /* UIView+NibLoading.swift in Sources */,
 				BEA0CF061EA18B1B0060AD6D /* AppDelegate.swift in Sources */,
 			);
