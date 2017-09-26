@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		689FE9BA1F7A5DE10047C33A /* Invokable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689FE9B91F7A5DE10047C33A /* Invokable.swift */; };
 		689FE9BD1F7A5E9D0047C33A /* DebugHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689FE9BC1F7A5E9D0047C33A /* DebugHandler.swift */; };
-		689FE9BF1F7A65F70047C33A /* DebugTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689FE9BE1F7A65F70047C33A /* DebugTableViewController.swift */; };
+		689FE9C11F7A8E9B0047C33A /* DebugTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689FE9C01F7A8E9B0047C33A /* DebugTableViewController.swift */; };
+		689FE9C31F7A8F370047C33A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689FE9C21F7A8F370047C33A /* Main.storyboard */; };
+		689FE9C51F7A965B0047C33A /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689FE9C41F7A965B0047C33A /* TestViewController.swift */; };
 		BE18DB4C1EA565FF00784917 /* UIView+NibLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE18DB4B1EA565FF00784917 /* UIView+NibLoading.swift */; };
 		BEA0CF061EA18B1B0060AD6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0CF051EA18B1B0060AD6D /* AppDelegate.swift */; };
-		BEA0CF0B1EA18B1B0060AD6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA0CF091EA18B1B0060AD6D /* Main.storyboard */; };
+		BEA0CF0B1EA18B1B0060AD6D /* Debuddy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA0CF091EA18B1B0060AD6D /* Debuddy.storyboard */; };
 		BEA0CF0D1EA18B1B0060AD6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA0CF0C1EA18B1B0060AD6D /* Assets.xcassets */; };
 		BEA0CF101EA18B1B0060AD6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA0CF0E1EA18B1B0060AD6D /* LaunchScreen.storyboard */; };
 		BEA0CF1B1EA18B1B0060AD6D /* DebuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0CF1A1EA18B1B0060AD6D /* DebuddyTests.swift */; };
@@ -32,11 +34,13 @@
 /* Begin PBXFileReference section */
 		689FE9B91F7A5DE10047C33A /* Invokable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invokable.swift; sourceTree = "<group>"; };
 		689FE9BC1F7A5E9D0047C33A /* DebugHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugHandler.swift; sourceTree = "<group>"; };
-		689FE9BE1F7A65F70047C33A /* DebugTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugTableViewController.swift; sourceTree = "<group>"; };
+		689FE9C01F7A8E9B0047C33A /* DebugTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugTableViewController.swift; sourceTree = "<group>"; };
+		689FE9C21F7A8F370047C33A /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		689FE9C41F7A965B0047C33A /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		BE18DB4B1EA565FF00784917 /* UIView+NibLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+NibLoading.swift"; sourceTree = "<group>"; };
 		BEA0CF021EA18B1B0060AD6D /* Debuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Debuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA0CF051EA18B1B0060AD6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BEA0CF0A1EA18B1B0060AD6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEA0CF0A1EA18B1B0060AD6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Debuddy.storyboard; sourceTree = "<group>"; };
 		BEA0CF0C1EA18B1B0060AD6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEA0CF0F1EA18B1B0060AD6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEA0CF111EA18B1B0060AD6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,9 +71,11 @@
 		BE26150F1F44DDFF00A789AA /* Debuddy */ = {
 			isa = PBXGroup;
 			children = (
+				689FE9C01F7A8E9B0047C33A /* DebugTableViewController.swift */,
 				BEB7C9B61F464A8500819302 /* DebugWindowManager.swift */,
 				689FE9B91F7A5DE10047C33A /* Invokable.swift */,
 				689FE9BC1F7A5E9D0047C33A /* DebugHandler.swift */,
+				BEA0CF091EA18B1B0060AD6D /* Debuddy.storyboard */,
 			);
 			path = Debuddy;
 			sourceTree = "<group>";
@@ -97,8 +103,8 @@
 			children = (
 				BE26150F1F44DDFF00A789AA /* Debuddy */,
 				BEA0CF051EA18B1B0060AD6D /* AppDelegate.swift */,
-				689FE9BE1F7A65F70047C33A /* DebugTableViewController.swift */,
-				BEA0CF091EA18B1B0060AD6D /* Main.storyboard */,
+				689FE9C41F7A965B0047C33A /* TestViewController.swift */,
+				689FE9C21F7A8F370047C33A /* Main.storyboard */,
 				BEA0CF0C1EA18B1B0060AD6D /* Assets.xcassets */,
 				BEA0CF0E1EA18B1B0060AD6D /* LaunchScreen.storyboard */,
 				BEA0CF111EA18B1B0060AD6D /* Info.plist */,
@@ -166,7 +172,8 @@
 				TargetAttributes = {
 					BEA0CF011EA18B1B0060AD6D = {
 						CreatedOnToolsVersion = 8.3;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = VG9R2N57GC;
+						ProvisioningStyle = Manual;
 					};
 					BEA0CF151EA18B1B0060AD6D = {
 						CreatedOnToolsVersion = 8.3;
@@ -201,7 +208,8 @@
 			files = (
 				BEA0CF101EA18B1B0060AD6D /* LaunchScreen.storyboard in Resources */,
 				BEA0CF0D1EA18B1B0060AD6D /* Assets.xcassets in Resources */,
-				BEA0CF0B1EA18B1B0060AD6D /* Main.storyboard in Resources */,
+				BEA0CF0B1EA18B1B0060AD6D /* Debuddy.storyboard in Resources */,
+				689FE9C31F7A8F370047C33A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,12 +227,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				689FE9BF1F7A65F70047C33A /* DebugTableViewController.swift in Sources */,
+				689FE9C51F7A965B0047C33A /* TestViewController.swift in Sources */,
 				689FE9BD1F7A5E9D0047C33A /* DebugHandler.swift in Sources */,
 				BEB7C9B71F464A8500819302 /* DebugWindowManager.swift in Sources */,
 				BE18DB4C1EA565FF00784917 /* UIView+NibLoading.swift in Sources */,
 				BEA0CF061EA18B1B0060AD6D /* AppDelegate.swift in Sources */,
 				689FE9BA1F7A5DE10047C33A /* Invokable.swift in Sources */,
+				689FE9C11F7A8E9B0047C33A /* DebugTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,12 +256,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BEA0CF091EA18B1B0060AD6D /* Main.storyboard */ = {
+		BEA0CF091EA18B1B0060AD6D /* Debuddy.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BEA0CF0A1EA18B1B0060AD6D /* Base */,
 			);
-			name = Main.storyboard;
+			name = Debuddy.storyboard;
 			sourceTree = "<group>";
 		};
 		BEA0CF0E1EA18B1B0060AD6D /* LaunchScreen.storyboard */ = {
@@ -363,10 +372,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VG9R2N57GC;
 				INFOPLIST_FILE = Debuddy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kensfrequency.Debuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "894acddb-3e38-4be5-8af7-61dc74eaaf74";
+				PROVISIONING_PROFILE_SPECIFIER = "Wildcard Development Profile";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -375,10 +388,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Debuddy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kensfrequency.Debuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
