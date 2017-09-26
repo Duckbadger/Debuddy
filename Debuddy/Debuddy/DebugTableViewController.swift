@@ -32,4 +32,9 @@ class DebugTableViewController: UITableViewController {
 		invokable.handler()
 		tableView.deselectRow(at: indexPath, animated: true)
 	}
+	
+	@IBAction func doneButtonTapUp(_ sender: Any) {
+		dismiss(animated: true, completion: nil)
+	}
+	
 }
