@@ -173,10 +173,12 @@
 					BEA0CF011EA18B1B0060AD6D = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = VG9R2N57GC;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Manual;
 					};
 					BEA0CF151EA18B1B0060AD6D = {
 						CreatedOnToolsVersion = 8.3;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = BEA0CF011EA18B1B0060AD6D;
 					};
@@ -380,7 +382,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "894acddb-3e38-4be5-8af7-61dc74eaaf74";
 				PROVISIONING_PROFILE_SPECIFIER = "Wildcard Development Profile";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -395,7 +398,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kensfrequency.Debuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -408,7 +412,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kensfrequency.DebuddyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Debuddy.app/Debuddy";
 			};
 			name = Debug;
@@ -422,7 +427,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kensfrequency.DebuddyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Debuddy.app/Debuddy";
 			};
 			name = Release;
