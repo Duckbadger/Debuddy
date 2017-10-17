@@ -26,6 +26,7 @@ public class DebugWindowManager {
 	// MARK: Private
 
 	fileprivate var assignedWindow: UIWindow?
+	fileprivate var rootDebuddyViewController: UIViewController?
 	
 }
 
@@ -46,10 +47,15 @@ extension DebugWindowManager {
 	
 	@objc public func openDebuddy() {
 		let debuddyStoryboard = UIStoryboard(name: "Debuddy", bundle: nil)
-		guard let initialViewController = debuddyStoryboard.instantiateInitialViewController() else {
+		rootDebuddyViewController = debuddyStoryboard.instantiateInitialViewController()
+		guard let initialViewController = rootDebuddyViewController else {
 			return
 		}
 		assignedWindow?.rootViewController?.present(initialViewController, animated: true, completion: nil)
+	}
+	
+	public func dismissDebuddy() {
+		rootDebuddyViewController?.dismiss(animated: true, completion: nil)
 	}
 	
 }

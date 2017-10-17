@@ -13,7 +13,7 @@ class DebugTableViewController: UITableViewController {
 	fileprivate let debuddyReuseIdentifier = "DebuddyCellIdentifier"
 	
 	@IBAction func doneButtonTapUp(_ sender: Any) {
-		dismiss(animated: true, completion: nil)
+		DebugWindowManager.shared.dismissDebuddy()
 	}
 	
 	// MARK: - Tableview delegates
