@@ -9,8 +9,6 @@
 import Foundation
 
 public struct DebugHandler: Invokable {
-	
-	public let identifier: String
 	public let title: String
 	public let handler: InvokableHandler
 	

@@ -11,9 +11,6 @@ import Foundation
 public typealias InvokableHandler = () -> ()
 
 public protocol Invokable {
-	
-	var identifier: String { get }
 	var title: String { get }
 	var handler: InvokableHandler { get }
-	
 }

@@ -23,8 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 	
 	private func debuddyInvokables() -> [Invokable] {
 		return [
-			DebugHandler(identifier: "1", title: "Reset data", handler: { print("Reset tapped")}),
-			DebugHandler(identifier: "1", title: "Add test models", handler: { print("Add test")})
+			DebugHandler(title: "Reset data", handler: { print("Reset tapped")}),
+			DebugHandler(title: "Add test models", handler: { print("Add test")})
 		]
 	}
 	
