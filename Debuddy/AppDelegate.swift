@@ -14,8 +14,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 	var window: UIWindow?
 		
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-		DebugWindowManager.shared.addDebuddyToWindow(window)
-		DebugWindowManager.shared.invokables = debuddyInvokables()
+		#if DEBUG
+			DebugWindowManager.shared.addDebuddyToWindow(window)
+            DebugWindowManager.shared.invokables = debuddyInvokables()
+		#endif
 		return true
 	}
 	

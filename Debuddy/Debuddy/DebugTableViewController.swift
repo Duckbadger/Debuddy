@@ -12,6 +12,13 @@ class DebugTableViewController: UITableViewController {
 	
 	fileprivate let debuddyReuseIdentifier = "DebuddyCellIdentifier"
 	
+	@IBAction func doneButtonTapUp(_ sender: Any) {
+		dismiss(animated: true, completion: nil)
+	}
+	
+	// MARK: - Tableview delegates
+	// MARK: UITableViewDataSource
+
 	override func numberOfSections(in tableView: UITableView) -> Int {
 		return 1
 	}
@@ -27,14 +34,12 @@ class DebugTableViewController: UITableViewController {
 		return cell
 	}
 	
+	// MARK: UITableViewDelegate
+	
 	override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 		let invokable = DebugWindowManager.shared.invokables[indexPath.row]
 		invokable.handler()
 		tableView.deselectRow(at: indexPath, animated: true)
-	}
-	
-	@IBAction func doneButtonTapUp(_ sender: Any) {
-		dismiss(animated: true, completion: nil)
 	}
 	
 }

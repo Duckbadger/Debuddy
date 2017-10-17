@@ -12,6 +12,7 @@
 		689FE9C11F7A8E9B0047C33A /* DebugTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689FE9C01F7A8E9B0047C33A /* DebugTableViewController.swift */; };
 		689FE9C31F7A8F370047C33A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689FE9C21F7A8F370047C33A /* Main.storyboard */; };
 		689FE9C51F7A965B0047C33A /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689FE9C41F7A965B0047C33A /* TestViewController.swift */; };
+		689FE9C71F7BC5660047C33A /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689FE9C61F7BC5660047C33A /* TestTableViewController.swift */; };
 		BE18DB4C1EA565FF00784917 /* UIView+NibLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE18DB4B1EA565FF00784917 /* UIView+NibLoading.swift */; };
 		BEA0CF061EA18B1B0060AD6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0CF051EA18B1B0060AD6D /* AppDelegate.swift */; };
 		BEA0CF0B1EA18B1B0060AD6D /* Debuddy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA0CF091EA18B1B0060AD6D /* Debuddy.storyboard */; };
@@ -37,6 +38,7 @@
 		689FE9C01F7A8E9B0047C33A /* DebugTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugTableViewController.swift; sourceTree = "<group>"; };
 		689FE9C21F7A8F370047C33A /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		689FE9C41F7A965B0047C33A /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		689FE9C61F7BC5660047C33A /* TestTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewController.swift; sourceTree = "<group>"; };
 		BE18DB4B1EA565FF00784917 /* UIView+NibLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+NibLoading.swift"; sourceTree = "<group>"; };
 		BEA0CF021EA18B1B0060AD6D /* Debuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Debuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA0CF051EA18B1B0060AD6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				BE26150F1F44DDFF00A789AA /* Debuddy */,
 				BEA0CF051EA18B1B0060AD6D /* AppDelegate.swift */,
 				689FE9C41F7A965B0047C33A /* TestViewController.swift */,
+				689FE9C61F7BC5660047C33A /* TestTableViewController.swift */,
 				689FE9C21F7A8F370047C33A /* Main.storyboard */,
 				BEA0CF0C1EA18B1B0060AD6D /* Assets.xcassets */,
 				BEA0CF0E1EA18B1B0060AD6D /* LaunchScreen.storyboard */,
@@ -236,6 +239,7 @@
 				BEA0CF061EA18B1B0060AD6D /* AppDelegate.swift in Sources */,
 				689FE9BA1F7A5DE10047C33A /* Invokable.swift in Sources */,
 				689FE9C11F7A8E9B0047C33A /* DebugTableViewController.swift in Sources */,
+				689FE9C71F7BC5660047C33A /* TestTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
