@@ -16,7 +16,7 @@ public class DebugWindowManager {
 	
 	public var invokables: [Invokable] = []
 	
-	static var openDebuddyGesture: UITapGestureRecognizer = {
+	public static var openDebuddyGesture: UITapGestureRecognizer = {
 		let gesture = UITapGestureRecognizer(target: DebugWindowManager.shared, action: #selector(openDebuddy))
 		gesture.numberOfTapsRequired = 2
 		gesture.numberOfTouchesRequired = 2

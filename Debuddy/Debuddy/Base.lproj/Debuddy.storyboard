@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Title-->
+        <!--Debuddy-->
         <scene sceneID="RxS-aq-ggm">
             <objects>
                 <tableViewController id="qU8-Gs-ai2" customClass="DebugTableViewController" customModule="Debuddy" customModuleProvider="target" sceneMemberID="viewController">
@@ -41,7 +41,7 @@
                             <outlet property="delegate" destination="qU8-Gs-ai2" id="mWL-qz-9vT"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Title" id="GJb-wR-YcK">
+                    <navigationItem key="navigationItem" title="Debuddy" id="GJb-wR-YcK">
                         <barButtonItem key="rightBarButtonItem" title="Done" style="done" id="WUl-0j-0m3">
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
