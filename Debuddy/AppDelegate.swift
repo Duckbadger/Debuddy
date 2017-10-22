@@ -15,8 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 		#if DEBUG
-			DebugWindowManager.shared.addDebuddyToWindow(window)
-            DebugWindowManager.shared.invokables = debuddyInvokables()
+			Debuddy.shared.addDebuddyToWindow(window)
+            Debuddy.shared.invokables = debuddyInvokables()
 		#endif
 		return true
 	}
@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 	private func debuddyInvokables() -> [Invokable] {
 		return [
 			DebugHandler(title: "Reset data", handler: { print("Reset tapped")}),
-			DebugHandler(title: "Add test models", handler: { print("Add test")})
+			DebugHandler(title: "Add test models", handler: { print("Add test models")})
 		]
 	}
 	

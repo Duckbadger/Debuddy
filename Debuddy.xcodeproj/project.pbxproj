@@ -15,11 +15,10 @@
 		689FE9C71F7BC5660047C33A /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689FE9C61F7BC5660047C33A /* TestTableViewController.swift */; };
 		BE18DB4C1EA565FF00784917 /* UIView+NibLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE18DB4B1EA565FF00784917 /* UIView+NibLoading.swift */; };
 		BEA0CF061EA18B1B0060AD6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0CF051EA18B1B0060AD6D /* AppDelegate.swift */; };
-		BEA0CF0B1EA18B1B0060AD6D /* Debuddy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA0CF091EA18B1B0060AD6D /* Debuddy.storyboard */; };
 		BEA0CF0D1EA18B1B0060AD6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA0CF0C1EA18B1B0060AD6D /* Assets.xcassets */; };
 		BEA0CF101EA18B1B0060AD6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA0CF0E1EA18B1B0060AD6D /* LaunchScreen.storyboard */; };
 		BEA0CF1B1EA18B1B0060AD6D /* DebuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0CF1A1EA18B1B0060AD6D /* DebuddyTests.swift */; };
-		BEB7C9B71F464A8500819302 /* DebugWindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB7C9B61F464A8500819302 /* DebugWindowManager.swift */; };
+		BEB7C9B71F464A8500819302 /* Debuddy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB7C9B61F464A8500819302 /* Debuddy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,14 +41,13 @@
 		BE18DB4B1EA565FF00784917 /* UIView+NibLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+NibLoading.swift"; sourceTree = "<group>"; };
 		BEA0CF021EA18B1B0060AD6D /* Debuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Debuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA0CF051EA18B1B0060AD6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BEA0CF0A1EA18B1B0060AD6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Debuddy.storyboard; sourceTree = "<group>"; };
 		BEA0CF0C1EA18B1B0060AD6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEA0CF0F1EA18B1B0060AD6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEA0CF111EA18B1B0060AD6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEA0CF161EA18B1B0060AD6D /* DebuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DebuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA0CF1A1EA18B1B0060AD6D /* DebuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuddyTests.swift; sourceTree = "<group>"; };
 		BEA0CF1C1EA18B1B0060AD6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BEB7C9B61F464A8500819302 /* DebugWindowManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugWindowManager.swift; sourceTree = "<group>"; };
+		BEB7C9B61F464A8500819302 /* Debuddy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debuddy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,10 +72,9 @@
 			isa = PBXGroup;
 			children = (
 				689FE9C01F7A8E9B0047C33A /* DebugTableViewController.swift */,
-				BEB7C9B61F464A8500819302 /* DebugWindowManager.swift */,
+				BEB7C9B61F464A8500819302 /* Debuddy.swift */,
 				689FE9B91F7A5DE10047C33A /* Invokable.swift */,
 				689FE9BC1F7A5E9D0047C33A /* DebugHandler.swift */,
-				BEA0CF091EA18B1B0060AD6D /* Debuddy.storyboard */,
 			);
 			path = Debuddy;
 			sourceTree = "<group>";
@@ -213,7 +210,6 @@
 			files = (
 				BEA0CF101EA18B1B0060AD6D /* LaunchScreen.storyboard in Resources */,
 				BEA0CF0D1EA18B1B0060AD6D /* Assets.xcassets in Resources */,
-				BEA0CF0B1EA18B1B0060AD6D /* Debuddy.storyboard in Resources */,
 				689FE9C31F7A8F370047C33A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,7 +230,7 @@
 			files = (
 				689FE9C51F7A965B0047C33A /* TestViewController.swift in Sources */,
 				689FE9BD1F7A5E9D0047C33A /* DebugHandler.swift in Sources */,
-				BEB7C9B71F464A8500819302 /* DebugWindowManager.swift in Sources */,
+				BEB7C9B71F464A8500819302 /* Debuddy.swift in Sources */,
 				BE18DB4C1EA565FF00784917 /* UIView+NibLoading.swift in Sources */,
 				BEA0CF061EA18B1B0060AD6D /* AppDelegate.swift in Sources */,
 				689FE9BA1F7A5DE10047C33A /* Invokable.swift in Sources */,
@@ -262,14 +258,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BEA0CF091EA18B1B0060AD6D /* Debuddy.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BEA0CF0A1EA18B1B0060AD6D /* Base */,
-			);
-			name = Debuddy.storyboard;
-			sourceTree = "<group>";
-		};
 		BEA0CF0E1EA18B1B0060AD6D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -322,7 +310,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -366,7 +354,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -381,6 +369,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = VG9R2N57GC;
 				INFOPLIST_FILE = Debuddy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kensfrequency.Debuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -398,6 +387,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Debuddy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kensfrequency.Debuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";

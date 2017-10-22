@@ -8,8 +8,8 @@
 
 import Foundation
 
+/// Default invokable handler to pass to the DebugManager
 public struct DebugHandler: Invokable {
 	public let title: String
 	public let handler: InvokableHandler
-	
 }

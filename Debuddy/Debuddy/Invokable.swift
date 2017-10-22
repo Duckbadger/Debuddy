@@ -8,8 +8,10 @@
 
 import Foundation
 
+/// Default invokable handler
 public typealias InvokableHandler = () -> ()
 
+/// Invokable defines a title and handler for the DebugWindowManager to present and invoke
 public protocol Invokable {
 	var title: String { get }
 	var handler: InvokableHandler { get }
