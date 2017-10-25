@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Debuddy'
-  s.version          = '0.0.1'
+  s.version          = '0.1.0'
   s.summary          = 'Customisable debugging view tool.'
   s.description      = <<-DESC
   Debuddy allows you to easily display a customizable debugging view into your project
